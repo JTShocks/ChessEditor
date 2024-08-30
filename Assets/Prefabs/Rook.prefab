@@ -98,4 +98,4 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   pieceData: {fileID: 11400000, guid: af6b61c3b4c4bdc47a80c20827c807c2, type: 2}
-  pathColor: {r: 0, g: 0, b: 0, a: 0}
+  pathColor: {r: 0.5372549, g: 0.105882354, b: 0.21176471, a: 1}
