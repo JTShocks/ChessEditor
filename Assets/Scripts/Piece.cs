@@ -19,7 +19,7 @@ public class Piece : MonoBehaviour
         renderer.sprite = pieceData.sprite;
     }
 
-    private void OnDrawGizmos()
+    private void OnDrawGizmosSelected()
     {
         foreach(PathData path in pieceData.piecePaths)
         {
@@ -30,7 +30,7 @@ public class Piece : MonoBehaviour
 
             Gizmos.color = pathColor;
             Gizmos.DrawLineStrip(localPaths, false);
-
+            //Gizmos.DrawSphere( (insert Vector3 data here) , 0.25f);
         }
 
 

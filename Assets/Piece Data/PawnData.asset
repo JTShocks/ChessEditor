@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: PawnData
   m_EditorClassIdentifier: 
   Name: Pawn
-  sprite: {fileID: 21300000, guid: 601a87d12d733224c8f2b39fb24f306f, type: 3}
+  sprite: {fileID: 713936469, guid: 1e886b61df3120741bfdab02c2ce7abb, type: 3}
   piecePaths:
   - points:
     - {x: 0, y: 0, z: 0}
