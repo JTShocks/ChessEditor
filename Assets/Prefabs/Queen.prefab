@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 4953537362775412757}
   - component: {fileID: 7415702763068116233}
   - component: {fileID: 5726358243265963961}
+  - component: {fileID: 6191948679170476698}
   m_Layer: 0
   m_Name: Queen
   m_TagString: Untagged
@@ -100,3 +101,16 @@ MonoBehaviour:
   pieceData: {fileID: 11400000, guid: eb81604f6844df2439480b2ad1c56ff1, type: 2}
   pathColor: {r: 0.5372549, g: 0.105882354, b: 0.21176471, a: 1}
   sphereRadius: 0.05
+--- !u!114 &6191948679170476698
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8593734445902466797}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7a9cea545f62cc646b30137255e6e468, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  borderArea: 1

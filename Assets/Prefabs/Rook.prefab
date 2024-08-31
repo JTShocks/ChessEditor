@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 3963974096356662190}
   - component: {fileID: 1418477251606070212}
   - component: {fileID: 6790152905855645013}
+  - component: {fileID: 6966671942458234214}
   m_Layer: 0
   m_Name: Rook
   m_TagString: Untagged
@@ -100,3 +101,16 @@ MonoBehaviour:
   pieceData: {fileID: 11400000, guid: af6b61c3b4c4bdc47a80c20827c807c2, type: 2}
   pathColor: {r: 0.5372549, g: 0.105882354, b: 0.21176471, a: 1}
   sphereRadius: 0.05
+--- !u!114 &6966671942458234214
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1007337114632016058}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7a9cea545f62cc646b30137255e6e468, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  borderArea: 1
