@@ -32,10 +32,12 @@ public class Piece : MonoBehaviour
             Gizmos.color = pathColor;
             Gizmos.DrawLineStrip(localPaths, false);
 
-            for (int i = 0; i < localPaths.Length; i++) 
-            {
-                Gizmos.DrawSphere(localPaths[i], sphereRadius);
-            }
+            Gizmos.DrawSphere(localPaths[localPaths.Length - 1], sphereRadius);
+
+            /* for (int i = 0; i < localPaths.Length; i++) 
+             {
+                 Gizmos.DrawSphere(localPaths[i], sphereRadius);
+             }*/
         }
 
 
