@@ -11,6 +11,7 @@ public class Piece : MonoBehaviour
 
     SpriteRenderer renderer;
     public Color pathColor;
+    public float sphereRadius;
 
     #if UNITY_EDITOR
     private void OnValidate()
@@ -30,6 +31,11 @@ public class Piece : MonoBehaviour
 
             Gizmos.color = pathColor;
             Gizmos.DrawLineStrip(localPaths, false);
+
+            for (int i = 0; i < localPaths.Length; i++) 
+            {
+                Gizmos.DrawSphere(localPaths[i], sphereRadius);
+            }
         }
 
 

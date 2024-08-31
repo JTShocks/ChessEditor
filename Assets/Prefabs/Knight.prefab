@@ -99,3 +99,4 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   pieceData: {fileID: 11400000, guid: 5aea70a16ab02594e8e2bd7a3c0535b8, type: 2}
   pathColor: {r: 0.5372549, g: 0.105882354, b: 0.21176471, a: 1}
+  sphereRadius: 0.05

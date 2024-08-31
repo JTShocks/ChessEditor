@@ -47,6 +47,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   pieceData: {fileID: 11400000, guid: d416e49785222fd4587c519124bd59c5, type: 2}
   pathColor: {r: 0.5377358, g: 0.105882354, b: 0.21176471, a: 1}
+  sphereRadius: 0.05
 --- !u!212 &6397090510189009475
 SpriteRenderer:
   m_ObjectHideFlags: 0
